@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Multi-User Video Call</title>
+        <title>Video Calling App</title>
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
@@ -39,7 +39,7 @@
             </div>
         </div>
         
-        <nav class="navbar fixed-top bg-info rounded-0 d-print-none">
+        <nav class="navbar fixed-top bg-info rounded-0 d-print-none" style="background-color:#355070 !important ;">
             <div class="text-white">Video Call</div>
 
             <div class="pull-right room-comm" hidden>
@@ -74,8 +74,8 @@
         </nav>
 
         <div class="container-fluid" id='room-create' hidden>
-            <div class="row">
-                <div class="col-12 h2 mt-5 text-center">Create Room</div>
+            <div class="row" >
+                <div class="col-12 h2 mt-5 text-center" >Create Room</div>
             </div>
             
             <div class="row mt-2">
@@ -93,8 +93,8 @@
                     <input type="text" id='your-name' class="form-control rounded-0" placeholder="Your Name">
                 </div>
 
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
-                    <button id='create-room' class="btn btn-block rounded-0 btn-info">Create Room</button>
+                <div class="col-12 col-md-4 offset-md-4 mb-3" style="background-color:#355070 !important ;">
+                    <button id='create-room' class="btn btn-block rounded-0 btn-info" style="background-color:#355070 !important ; border-color: #355070 !important;">Create Room</button>
                 </div>
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3" id='room-created'></div>
@@ -132,12 +132,12 @@
                     <div class="row mt-2 mb-2" id='videos'></div>
                 </div>
 
-                <div class="col-md-3 chat-col d-print-none mb-2 bg-info" id='chat-pane' hidden>
-                    <div class="row">
-                        <div class="col-12 text-center h2 mb-3">CHAT</div>
+                <div class="col-md-3 chat-col d-print-none mb-2 bg-info" id='chat-pane' hidden style="background-color:#6d597a !important ;">
+                    <div class="row" style="background-color:#6d597a !important ;">
+                        <div class="col-12 text-center h2 mb-3" style="background-color:#6d597a !important ;">CHAT</div>
                     </div>
 
-                    <div id='chat-messages'></div>
+                    <div id='chat-messages' style="background-color:#6d597a !important ;"></div>
 
                     <form>
                         <div class="input-group mb-3" >
